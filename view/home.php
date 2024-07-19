@@ -13,7 +13,8 @@
 		                                    <div class="sohomeslider-description">
 		                                        <img class="image image-sl11 pos-right img-active" src="./view/image/demo/slider/sl11/2.png" alt="slideshow">
 		                                        <div class="text pos-right text-sl11">
-		                                            <h3 class="tilte modtitle-sl11  title-active">Nikon D71000git</h3>
+													<!-- Khuyến -->
+		                                            <h3 class="tilte modtitle-sl11  title-active">Nikon D71000</h3>
 		                                            <p class="des des-sl11 des-active">Ultimate image quality. Create without limination</p>
 		                                        </div>
 		                                    </div>

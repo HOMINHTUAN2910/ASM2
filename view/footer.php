@@ -23,7 +23,7 @@
                     <div class="module news-letter col-md-9 col-sm-12 col-xs-12">
                         <div class="newsletter">
                             <div class="title-block">
-                                <div class="page-heading">SIGN UP FOR OUR NEWSLETTER</div>
+                                <div class="page-heading">SIGN UP FOR OUR NEWSLETTERS</div>
                                 <div class="pre-text">
                                     Duis at ante non massa consectetur iaculis id non tellus
                                 </div>
