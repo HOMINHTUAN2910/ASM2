@@ -227,7 +227,7 @@
                                                                                     <img class="img-responsive img-border lazyload" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./view/image/demo/menu/home-9.jpg" alt="">
                                                                                     <span class="btn btn-default">Read More</span>
                                                                                 </span>
-                                                                                <h3 class="figcaption">Home page - Layout 9</h3>
+                                                                                <h3 class="figcaption">Home page - Layout 98</h3>
                                                                             </a>
 
                                                                         </div>
