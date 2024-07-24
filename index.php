@@ -2,12 +2,14 @@
 ob_start();
 session_start();
 include_once "model/connect.php";
+include_once "controller/catagories.php";
+
 
 pdo_get_connection();
 
 include_once 'view/header.php';
 if (!isset($_GET['page'])) {
-
+  $categoryName = get_catagories();
   include "view/home.php";
 } else {
   switch ($_GET['page']) {
