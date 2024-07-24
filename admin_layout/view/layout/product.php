@@ -69,29 +69,25 @@
               <table class="table table-hover table-striped">
                 <thead>
                   <th>ID</th>
-                  <th>Tên</th>
-                  <th>tagname</th>
-                  <th>STT</th>
+                  <th>Name</th>
+                  <th>Code</th>
+                  <th>price</th>
+                  <th>discount</th>
+                  <th>quantity</th>
+                  <th>Hot</th>
+                  <th>Featured</th>
+                  <th>Status</th>
                   <th>Chức năng</th>
                 </thead>
                 <tbody>
-                  <?php
-                  foreach ($catagoriesFull as $item) {
-                    echo '
-                        <tr>
-                        <td>' . $item['id'] . '</td>
-                        <td>' . $item['namecategories'] . '</td>
-                        <td>' . $item['tagname'] . '</td>
-                        <td>' . $item['STT'] . '</td>
-                        <td><a href="">Sửa</a> | <a href="">Xóa</a></td>
-                      </tr>
-                        
-                    
-                    
-                    ';
-                  }
+                  <tr>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><a href="">Sửa</a> | <a href="">Xóa</a></td>
+                  </tr>
 
-                  ?>
                 </tbody>
               </table>
 
