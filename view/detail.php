@@ -66,7 +66,6 @@
     <script type="text/javascript" src="js/themejs/addtocart.js"></script>
     <script type="text/javascript" src="js/themejs/application.js"></script>
 
-
 </head>
 
 <body class="res layout-subpage">
@@ -78,7 +77,11 @@
                 <li><a href="#">Smartphone & Tablets</a></li>
                 <li><a href="#">Comas samer rumas</a></li>
             </ul>
-
+            <?php
+            require_once("../controller/catagories.php");
+            require_once("../model/connect.php");
+            include('header.php');
+            ?>
             <div class="row">
                 <!--Middle Part Start-->
                 <div id="content" class="col-md-12 col-sm-12">
