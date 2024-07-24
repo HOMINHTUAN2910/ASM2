@@ -49,7 +49,7 @@
         <!-- Header Container  -->
         <header id="header" class=" variantleft type_1">
             <!-- Header Top -->
-            <div class="header-top compact-hidden">
+            <!-- <div class="header-top compact-hidden">
                 <div class="container">
                     <div class="row">
                         <div class="header-top-left  col-lg-4  hidden-sm col-md-5 hidden-xs">
@@ -108,7 +108,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- //Header Top -->
             <!-- Header center -->
             <div class="header-center">
@@ -116,7 +116,7 @@
                     <div class="row">
                         <!-- LOGO -->
                         <div class="navbar-logo col-md-3 col-sm-4 col-xs-10">
-                            <a href="index.html"><img class="lazyload" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./view/image/demo/logos/theme_logo.png" title="Your Store" alt="Your Store" /></a>
+                            <a href="index.php"><img class="lazyload" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./view/image/demo/logos/theme_logo.png" title="Your Store" alt="Your Store" /></a>
                         </div>
                         <div class="header-center-right col-md-9 col-sm-8 col-xs-2">
                             <div class="responsive so-megamenu  megamenu-style-dev">
@@ -560,15 +560,16 @@
                                                                                                             $subcategory = get_subcategories($subid);
                                                                                                             if ($subcategory) {
                                                                                                                 $categories = $subcategory[0]['namecategories'];
+                                                                                                                $tagname = $subcategory[1]['tagname'];
                                                                                                                 echo '
                                                                                                                        
-                                                                                                                <a href="#" class="main-menu">' . $categories . '</a>
+                                                                                                                <a href="?page=' . $tagname . '" class="main-menu">' . $categories . '</a>
                                                                                                                 ';
                                                                                                                 $subcategories = '';
                                                                                                                 foreach ($subcategory as $item) {
                                                                                                                     echo '
                                                                                                                             <ul>
-                                                                                                                                <li> <a href="index.php?page=">' . $item['nameSub'] . '</a> </li>     
+                                                                                                                                <li> <a href="?page=">' . $item['nameSub'] . '</a> </li>     
                                                                                                                             </ul>
                                                                                                                             ';
                                                                                                                 }
@@ -741,15 +742,29 @@
                                                                                             <div class="menu">
                                                                                                 <ul>
                                                                                                     <li>
-                                                                                                        <a href="#" class="main-menu">Car Alarms and Security</a>
-                                                                                                        <ul>
-                                                                                                            <li><a href="#">Car Audio &amp; Speakers</a></li>
-                                                                                                            <li><a href="#">Gadgets &amp; Auto Parts</a></li>
-                                                                                                            <li><a href="#">Gadgets &amp; Auto Parts</a></li>
-                                                                                                            <li><a href="#">Headphones, Headsets</a></li>
-                                                                                                        </ul>
+                                                                                                        <?php
+                                                                                                        $subid = 4;
+                                                                                                        $subcategory = get_subcategories($subid);
+                                                                                                        if ($subcategory) {
+                                                                                                            $categories = $subcategory[0]['namecategories'];
+                                                                                                            echo '
+                                                                                                                       
+                                                                                                                <a href="#" class="main-menu">' . $categories . '</a>
+                                                                                                                ';
+                                                                                                            $subcategories = '';
+                                                                                                            foreach ($subcategory as $item) {
+                                                                                                                echo '
+                                                                                                                            <ul>
+                                                                                                                                <li> <a href="index.php?page=">' . $item['nameSub'] . '</a> </li>     
+                                                                                                                            </ul>
+                                                                                                                            ';
+                                                                                                            }
+                                                                                                        }
+
+
+                                                                                                        ?>
                                                                                                     </li>
-                                                                                                    <li>
+                                                                                                    <!-- <li>
                                                                                                         <a href="24" onclick="window.location = '24';" class="main-menu">Health &amp; Beauty</a>
                                                                                                         <ul>
                                                                                                             <li>
@@ -765,11 +780,11 @@
                                                                                                                 <a href="#">Toys &amp; Hobbies</a>
                                                                                                             </li>
                                                                                                         </ul>
-                                                                                                    </li>
+                                                                                                    </li> -->
                                                                                                 </ul>
                                                                                             </div>
                                                                                         </div>
-                                                                                        <div class="col-md-4 static-menu">
+                                                                                        <!-- <div class="col-md-4 static-menu">
                                                                                             <div class="menu">
                                                                                                 <ul>
                                                                                                     <li>
@@ -808,8 +823,8 @@
                                                                                                     </li>
                                                                                                 </ul>
                                                                                             </div>
-                                                                                        </div>
-                                                                                        <div class="col-md-4 static-menu">
+                                                                                        </div> -->
+                                                                                        <!-- <div class="col-md-4 static-menu">
                                                                                             <div class="menu">
                                                                                                 <ul>
                                                                                                     <li>
@@ -848,7 +863,7 @@
                                                                                                     </li>
                                                                                                 </ul>
                                                                                             </div>
-                                                                                        </div>
+                                                                                        </div> -->
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
