@@ -12,6 +12,7 @@ function get_subcategories($subid)
     SELECT
         c.id AS category_id,
         c.namecategories ,
+        c.tagname,
         sc.id AS subcategory_id,
         sc.nameSub 
     FROM
