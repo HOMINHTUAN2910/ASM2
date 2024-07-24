@@ -9,7 +9,8 @@ pdo_get_connection();
 
 include_once 'view/header.php';
 if (!isset($_GET['page'])) {
-  $categoryName = get_catagories();
+  $category = get_categoriesID($id);
+  $subcategory = get_subcategories($subid);
   include "view/home.php";
 } else {
   switch ($_GET['page']) {
