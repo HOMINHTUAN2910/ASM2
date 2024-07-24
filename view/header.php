@@ -129,150 +129,21 @@
                                                 <span class="icon-bar"></span>
                                             </button>
                                         </div>
-
                                         <div class="megamenu-wrapper ">
                                             <span id="remove-megamenu" class="fa fa-times"></span>
                                             <div class="megamenu-pattern">
                                                 <div class="container">
                                                     <ul class="megamenu " data-transition="slide" data-animationtime="250">
                                                         <li class="home hover">
-                                                            <a href="index.html">Home <b class="caret"></b></a>
-                                                            <div class="sub-menu" style="width:100%;">
-                                                                <div class="content">
-                                                                    <div class="row">
-                                                                        <div class="col-md-3">
-                                                                            <a href="index.html" class="image-link">
-                                                                                <span class="thumbnail">
-                                                                                    <img class="img-responsive img-border lazyload" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./view/image/demo/menu/home-1.jpg" alt="">
-                                                                                    <span class="btn btn-default">Read More</span>
-                                                                                </span>
-                                                                                <h3 class="figcaption">Home page - (Default)</h3>
-                                                                            </a>
-
-                                                                        </div>
-                                                                        <div class="col-md-3">
-                                                                            <a href="home2.html" class="image-link">
-                                                                                <span class="thumbnail">
-                                                                                    <img class="img-responsive img-border lazyload" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./view/image/demo/menu/home-2.jpg" alt="">
-                                                                                    <span class="btn btn-default">Read More</span>
-                                                                                </span>
-                                                                                <h3 class="figcaption">Home page - Layout 2</h3>
-                                                                            </a>
-
-                                                                        </div>
-                                                                        <div class="col-md-3">
-                                                                            <a href="home3.html" class="image-link">
-                                                                                <span class="thumbnail">
-                                                                                    <img class="img-responsive img-border lazyload" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./view/image/demo/menu/home-3.jpg" alt="">
-                                                                                    <span class="btn btn-default">Read More</span>
-                                                                                </span>
-                                                                                <h3 class="figcaption">Home page - Layout 3</h3>
-                                                                            </a>
-
-                                                                        </div>
-                                                                        <div class="col-md-3">
-                                                                            <a href="home4.html" class="image-link">
-                                                                                <span class="thumbnail">
-                                                                                    <img class="img-responsive img-border  lazyload" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./view/image/demo/menu/home-4.jpg" alt="">
-                                                                                    <span class="btn btn-default">Read More</span>
-                                                                                </span>
-                                                                                <h3 class="figcaption">Home page - Layout 4</h3>
-                                                                            </a>
-
-                                                                        </div>
-
-                                                                        <div class="col-md-3">
-                                                                            <a href="home5.html" class="image-link">
-                                                                                <span class="thumbnail">
-                                                                                    <img class="img-responsive img-border lazyload" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./view/image/demo/menu/home-5.jpg" alt="">
-                                                                                    <span class="btn btn-default">Read More</span>
-                                                                                </span>
-                                                                                <h3 class="figcaption">Home page - Layout 5</h3>
-                                                                            </a>
-
-                                                                        </div>
-                                                                        <div class="col-md-3">
-                                                                            <a href="home6.html" class="image-link">
-                                                                                <span class="thumbnail">
-                                                                                    <img class="img-responsive img-border lazyload" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./view/image/demo/menu/home-6.jpg" alt="">
-                                                                                    <span class="btn btn-default">Read More</span>
-                                                                                </span>
-                                                                                <h3 class="figcaption">Home page - Layout 6</h3>
-                                                                            </a>
-
-                                                                        </div>
-                                                                        <div class="col-md-3">
-                                                                            <a href="home7.html" class="image-link">
-                                                                                <span class="thumbnail">
-                                                                                    <img class="img-responsive img-border lazyload" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./view/image/demo/menu/home-7.jpg" alt="">
-                                                                                    <span class="btn btn-default">Read More</span>
-                                                                                </span>
-                                                                                <h3 class="figcaption">Home page - Layout 7</h3>
-                                                                            </a>
-
-                                                                        </div>
-                                                                        <div class="col-md-3">
-                                                                            <a href="home8.html" class="image-link">
-                                                                                <span class="thumbnail">
-                                                                                    <img class="img-responsive img-border lazyload" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./view/image/demo/menu/home-8.jpg" alt="">
-                                                                                    <span class="btn btn-default">Read More</span>
-                                                                                </span>
-                                                                                <h3 class="figcaption">Home page - Layout 8</h3>
-                                                                            </a>
-
-                                                                        </div>
-                                                                        <div class="col-md-3">
-                                                                            <a href="home9.html" class="image-link">
-                                                                                <span class="thumbnail">
-                                                                                    <img class="img-responsive img-border lazyload" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./view/image/demo/menu/home-9.jpg" alt="">
-                                                                                    <span class="btn btn-default">Read More</span>
-                                                                                </span>
-                                                                                <h3 class="figcaption">Home page - Layout 98</h3>
-                                                                            </a>
-
-                                                                        </div>
-                                                                        <div class="col-md-3">
-                                                                            <a href="home10.html" class="image-link">
-                                                                                <span class="thumbnail">
-                                                                                    <img class="img-responsive img-border lazyload" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./view/image/demo/menu/home-10.jpg" alt="">
-                                                                                    <span class="btn btn-default">Read More</span>
-                                                                                </span>
-                                                                                <h3 class="figcaption">Home page - Layout 10</h3>
-                                                                            </a>
-
-                                                                        </div>
-                                                                        <div class="col-md-3">
-                                                                            <a href="#" class="image-link">
-                                                                                <span class="thumbnail">
-                                                                                    <img class="img-responsive img-border lazyload" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./view/image/demo/menu/home-11.jpg" alt="">
-                                                                                    <span class="btn btn-default">Read More</span>
-                                                                                </span>
-                                                                                <h3 class="figcaption">Home page - Layout 11</h3>
-                                                                            </a>
-
-                                                                        </div>
-                                                                        <div class="col-md-3">
-                                                                            <a href="#" class="image-link">
-                                                                                <span class="thumbnail">
-                                                                                    <img class="img-responsive img-border lazyload" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./view/image/demo/menu/home-12.jpg" alt="">
-                                                                                    <span class="btn btn-default">Read More</span>
-                                                                                </span>
-                                                                                <h3 class="figcaption">Home page - Layout 12</h3>
-                                                                            </a>
-
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
+                                                            <a href="index.php">Home</a>
                                                         </li>
+                                                        <!-- start Features -->
                                                         <li class="with-sub-menu hover">
                                                             <p class="close-menu"></p>
                                                             <a href="#" class="clearfix">
                                                                 <strong>
-
                                                                     Features
                                                                 </strong>
-
                                                                 <b class="caret"></b>
                                                             </a>
                                                             <div class="sub-menu" style="width: 100%; right: auto;">
@@ -338,13 +209,14 @@
                                                                 </div>
                                                             </div>
                                                         </li>
+                                                        <!-- end Features -->
                                                         <li class="with-sub-menu hover">
                                                             <p class="close-menu"></p>
                                                             <a href="#" class="clearfix">
-                                                                <strong><img class="lazyload" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./view/image/demo/menu/hot-icon.png" alt="">Pages</strong>
-                                                                <b class="caret"></b>
+                                                                <strong><img class="lazyload" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./view/image/demo/menu/hot-icon.png" alt="">About us</strong>
+                                                                <!-- <b class="caret"></b> -->
                                                             </a>
-                                                            <div class="sub-menu" style="width: 40%; ">
+                                                            <!-- <div class="sub-menu" style="width: 40%; ">
                                                                 <div class="content">
                                                                     <div class="row">
                                                                         <div class="col-md-6">
@@ -366,9 +238,10 @@
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                            </div>
+                                                            </div> -->
                                                         </li>
-                                                        <li class="with-sub-menu hover">
+
+                                                        <!-- <li class="with-sub-menu hover">
                                                             <p class="close-menu"></p>
                                                             <a href="#" class="clearfix">
                                                                 <strong><img class="lazyload" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./view/image/demo/menu/new-icon.png" alt="">Categories</strong>
@@ -459,8 +332,8 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </li>
-
+                                                        </li> -->
+                                                        <!-- Accessories -->
                                                         <li class="with-sub-menu hover">
                                                             <p class="close-menu"></p>
                                                             <a href="#" class="clearfix">
@@ -586,6 +459,8 @@
                                                                 </div>
                                                             </div>
                                                         </li>
+                                                        <!-- end Accessories -->
+                                                        <!-- start Blog -->
                                                         <li class="">
                                                             <p class="close-menu"></p>
                                                             <a href="blog-page.html" class="clearfix">
@@ -593,11 +468,11 @@
                                                                 <span class="label"></span>
                                                             </a>
                                                         </li>
-
+                                                        <!-- end blog -->
                                                         <li class="hidden-md color-buy">
                                                             <p class="close-menu"></p>
                                                             <a href="#" class="clearfix">
-                                                                <strong>Buy Theme!</strong>
+                                                                <strong>Contact us</strong>
 
                                                             </a>
                                                         </li>
@@ -653,12 +528,23 @@
                                                             <ul class="megamenu">
                                                                 <li class="item-vertical style1 with-sub-menu hover">
                                                                     <p class="close-menu"></p>
-                                                                    <a href="#" class="clearfix">
-                                                                        <strong>
-                                                                            <span>Automotive &amp; Motocrycle</span>
-                                                                            <b class="fa fa-angle-right"></b>
-                                                                        </strong>
-                                                                    </a>
+                                                                    <!-- start category -->
+                                                                    <?php
+                                                                    $id = 1;
+                                                                    $category = get_categoriesID($id);
+                                                                    if ($category) {
+
+                                                                        echo '
+                                                                            <a href="#" class="clearfix">
+                                                                            <strong>
+                                                                            <?php
+                                                                                <span>' . $category['namecategories'] . '</span>
+                                                                                <b class="fa fa-angle-right"></b>
+                                                                            </strong>
+                                                                        </a>
+                                                                            ';
+                                                                    }
+                                                                    ?>
                                                                     <div class="sub-menu" data-subwidth="100">
                                                                         <div class="content">
                                                                             <div class="row">
@@ -669,23 +555,30 @@
                                                                                                 <div class="menu">
                                                                                                     <ul>
                                                                                                         <li>
-                                                                                                            <a href="#" class="main-menu">Automotive</a>
-                                                                                                            <ul>
-                                                                                                                <li> <a href="#">Car Alarms and Security</a> </li>
-                                                                                                                <li> <a href="#">Car Audio &amp; Speakers</a> </li>
-                                                                                                                <li> <a href="#">Gadgets &amp; Auto Parts</a> </li>
-                                                                                                                <li> <a href="#">More Car Accessories</a> </li>
-                                                                                                            </ul>
+                                                                                                            <?php
+                                                                                                            $subid = 1;
+                                                                                                            $subcategory = get_subcategories($subid);
+                                                                                                            if ($subcategory) {
+                                                                                                                $categories = $subcategory[0]['namecategories'];
+                                                                                                                echo '
+                                                                                                                       
+                                                                                                                <a href="#" class="main-menu">' . $categories . '</a>
+                                                                                                                ';
+                                                                                                                $subcategories = '';
+                                                                                                                foreach ($subcategory as $item) {
+                                                                                                                    echo '
+                                                                                                                            <ul>
+                                                                                                                                <li> <a href="index.php?page=">' . $item['nameSub'] . '</a> </li>     
+                                                                                                                            </ul>
+                                                                                                                            ';
+                                                                                                                }
+                                                                                                            }
+
+
+                                                                                                            ?>
                                                                                                         </li>
-                                                                                                        <li>
-                                                                                                            <a href="#" class="main-menu">Computer</a>
-                                                                                                            <ul>
-                                                                                                                <li> <a href="#">Camping &amp; Hiking</a> </li>
-                                                                                                                <li> <a href="#">Cusen mariot</a> </li>
-                                                                                                                <li> <a href="#">Denta magela</a> </li>
-                                                                                                                <li> <a href="#">Engite nanet</a> </li>
-                                                                                                            </ul>
-                                                                                                        </li>
+
+
                                                                                                     </ul>
                                                                                                 </div>
                                                                                             </div>
@@ -693,23 +586,31 @@
                                                                                                 <div class="menu">
                                                                                                     <ul>
                                                                                                         <li>
-                                                                                                            <a href="#" class="main-menu">Electronics </a>
-                                                                                                            <ul>
-                                                                                                                <li> <a href="#">Angene mafin</a> </li>
-                                                                                                                <li> <a href="#">Egante mangetes</a> </li>
-                                                                                                                <li> <a href="#">Gante extensg</a> </li>
-                                                                                                                <li> <a href="#">Guntes magesg</a> </li>
-                                                                                                            </ul>
+                                                                                                            <?php
+                                                                                                            $subid = 2;
+                                                                                                            $subcategory = get_subcategories($subid);
+                                                                                                            if ($subcategory) {
+                                                                                                                $categories = $subcategory[0]['namecategories'];
+                                                                                                                echo '
+                                                                                                                       
+                                                                                                                <a href="#" class="main-menu">' . $categories . '</a>
+                                                                                                                ';
+                                                                                                                $subcategories = '';
+                                                                                                                foreach ($subcategory as $item) {
+                                                                                                                    echo '
+                                                                                                                            <ul>
+                                                                                                                                <li> <a href="index.php?page=">' . $item['nameSub'] . '</a> </li>     
+                                                                                                                            </ul>
+                                                                                                                            ';
+                                                                                                                }
+                                                                                                            }
+
+
+                                                                                                            ?>
                                                                                                         </li>
-                                                                                                        <li>
-                                                                                                            <a href="#" class="main-menu">Mobile &amp; Tablet </a>
-                                                                                                            <ul>
-                                                                                                                <li> <a href="#">Hanet magente</a> </li>
-                                                                                                                <li> <a href="#">Knage unget</a> </li>
-                                                                                                                <li> <a href="#">Latenge mange</a> </li>
-                                                                                                                <li> <a href="#">Punge nenune</a> </li>
-                                                                                                            </ul>
-                                                                                                        </li>
+                                                                                                        <!-- <li>
+                                                                                                           
+                                                                                                        </li> -->
                                                                                                     </ul>
                                                                                                 </div>
                                                                                             </div>
@@ -724,24 +625,46 @@
                                                                             </div>
                                                                         </div>
                                                                     </div>
+
+
                                                                 </li>
                                                                 <li class="item-vertical">
                                                                     <p class="close-menu"></p>
-                                                                    <a href="#" class="clearfix">
-                                                                        <strong>
-                                                                            <span>Electronic</span>
-                                                                        </strong>
-                                                                    </a>
+                                                                    <?php
+                                                                    $id = 2;
+                                                                    $category = get_categoriesID($id);
+                                                                    if ($category) {
+
+                                                                        echo '
+                                                                            <a href="#" class="clearfix">
+                                                                            <strong>
+                                                                            <?php
+                                                                                <span>' . $category['namecategories'] . '</span>
+                                                                                <b class="fa fa-angle-right"></b>
+                                                                            </strong>
+                                                                        </a>
+                                                                            ';
+                                                                    }
+                                                                    ?>
                                                                 </li>
                                                                 <li class="item-vertical with-sub-menu hover">
                                                                     <p class="close-menu"></p>
-                                                                    <a href="#" class="clearfix">
-                                                                        <span class="label"></span>
-                                                                        <strong>
-                                                                            <span>Sports &amp; Outdoors</span>
-                                                                            <b class="fa fa-angle-right"></b>
-                                                                        </strong>
-                                                                    </a>
+                                                                    <?php
+                                                                    $id = 3;
+                                                                    $category = get_categoriesID($id);
+                                                                    if ($category) {
+
+                                                                        echo '
+                                                                            <a href="#" class="clearfix">
+                                                                            <strong>
+                                                                            <?php
+                                                                                <span>' . $category['namecategories'] . '</span>
+                                                                                <b class="fa fa-angle-right"></b>
+                                                                            </strong>
+                                                                        </a>
+                                                                            ';
+                                                                    }
+                                                                    ?>
                                                                     <div class="sub-menu" data-subwidth="60">
                                                                         <div class="content">
                                                                             <div class="row">
@@ -793,12 +716,22 @@
                                                                 </li>
                                                                 <li class="item-vertical with-sub-menu hover">
                                                                     <p class="close-menu"></p>
-                                                                    <a href="#" class="clearfix">
-                                                                        <strong>
-                                                                            <span>Health &amp; Beauty</span>
-                                                                            <b class="fa fa-angle-right"></b>
-                                                                        </strong>
-                                                                    </a>
+                                                                    <?php
+                                                                    $id = 4;
+                                                                    $category = get_categoriesID($id);
+                                                                    if ($category) {
+
+                                                                        echo '
+                                                                            <a href="#" class="clearfix">
+                                                                            <strong>
+                                                                            <?php
+                                                                                <span>' . $category['namecategories'] . '</span>
+                                                                                <b class="fa fa-angle-right"></b>
+                                                                            </strong>
+                                                                        </a>
+                                                                            ';
+                                                                    }
+                                                                    ?>
                                                                     <div class="sub-menu" data-subwidth="100">
                                                                         <div class="content">
                                                                             <div class="row">
@@ -924,13 +857,22 @@
                                                                 </li>
                                                                 <li class="item-vertical css-menu with-sub-menu hover">
                                                                     <p class="close-menu"></p>
-                                                                    <a href="#" class="clearfix">
+                                                                    <?php
+                                                                    $id = 5;
+                                                                    $category = get_categoriesID($id);
+                                                                    if ($category) {
 
-                                                                        <strong>
-                                                                            <span>Smartphone &amp; Tablets</span>
-                                                                            <b class="fa fa-angle-right"></b>
-                                                                        </strong>
-                                                                    </a>
+                                                                        echo '
+                                                                            <a href="#" class="clearfix">
+                                                                            <strong>
+                                                                            <?php
+                                                                                <span>' . $category['namecategories'] . '</span>
+                                                                                <b class="fa fa-angle-right"></b>
+                                                                            </strong>
+                                                                        </a>
+                                                                            ';
+                                                                    }
+                                                                    ?>
                                                                     <div class="sub-menu" data-subwidth="30" style="width: 270px; display: none; right: 0px;">
                                                                         <div class="content" style="display: none;">
                                                                             <div class="row">
@@ -978,37 +920,81 @@
                                                                 </li>
                                                                 <li class="item-vertical">
                                                                     <p class="close-menu"></p>
-                                                                    <a href="#" class="clearfix">
-                                                                        <strong>
-                                                                            <span>Flashlights &amp; Lamps</span>
-                                                                        </strong>
-                                                                    </a>
+                                                                    <?php
+                                                                    $id = 6;
+                                                                    $category = get_categoriesID($id);
+                                                                    if ($category) {
+
+                                                                        echo '
+                                                                            <a href="#" class="clearfix">
+                                                                            <strong>
+                                                                            <?php
+                                                                                <span>' . $category['namecategories'] . '</span>
+                                                                                <b class="fa fa-angle-right"></b>
+                                                                            </strong>
+                                                                        </a>
+                                                                            ';
+                                                                    }
+                                                                    ?>
                                                                 </li>
                                                                 <li class="item-vertical">
                                                                     <p class="close-menu"></p>
-                                                                    <a href="#" class="clearfix">
-                                                                        <strong>
-                                                                            <span>Camera &amp; Photo</span>
-                                                                        </strong>
-                                                                    </a>
+                                                                    <?php
+                                                                    $id = 7;
+                                                                    $category = get_categoriesID($id);
+                                                                    if ($category) {
+
+                                                                        echo '
+                                                                            <a href="#" class="clearfix">
+                                                                            <strong>
+                                                                            <?php
+                                                                                <span>' . $category['namecategories'] . '</span>
+                                                                                <b class="fa fa-angle-right"></b>
+                                                                            </strong>
+                                                                        </a>
+                                                                            ';
+                                                                    }
+                                                                    ?>
                                                                 </li>
                                                                 <li class="item-vertical">
                                                                     <p class="close-menu"></p>
-                                                                    <a href="#" class="clearfix">
-                                                                        <strong>
-                                                                            <span>Smartphone &amp; Tablets</span>
-                                                                        </strong>
-                                                                    </a>
+                                                                    <?php
+                                                                    $id = 8;
+                                                                    $category = get_categoriesID($id);
+                                                                    if ($category) {
+
+                                                                        echo '
+                                                                            <a href="#" class="clearfix">
+                                                                            <strong>
+                                                                            <?php
+                                                                                <span>' . $category['namecategories'] . '</span>
+                                                                                <b class="fa fa-angle-right"></b>
+                                                                            </strong>
+                                                                        </a>
+                                                                            ';
+                                                                    }
+                                                                    ?>
                                                                 </li>
                                                                 <li class="item-vertical">
                                                                     <p class="close-menu"></p>
-                                                                    <a href="#" class="clearfix">
-                                                                        <strong>
-                                                                            <span>Outdoor &amp; Traveling Supplies</span>
-                                                                        </strong>
-                                                                    </a>
+                                                                    <?php
+                                                                    $id = 9;
+                                                                    $category = get_categoriesID($id);
+                                                                    if ($category) {
+
+                                                                        echo '
+                                                                            <a href="#" class="clearfix">
+                                                                            <strong>
+                                                                            <?php
+                                                                                <span>' . $category['namecategories'] . '</span>
+                                                                                <b class="fa fa-angle-right"></b>
+                                                                            </strong>
+                                                                        </a>
+                                                                            ';
+                                                                    }
+                                                                    ?>
                                                                 </li>
-                                                                <li class="item-vertical" style="display: none;">
+                                                                <!-- <li class="item-vertical" style="display: none;">
                                                                     <p class="close-menu"></p>
 
                                                                     <a href="#" class="clearfix">
@@ -1029,7 +1015,7 @@
                                                                 <li class="loadmore">
                                                                     <i class="fa fa-plus-square-o"></i>
                                                                     <span class="more-view">More Categories</span>
-                                                                </li>
+                                                                </li> -->
                                                             </ul>
                                                         </div>
                                                     </div>
