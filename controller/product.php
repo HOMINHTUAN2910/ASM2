@@ -1,4 +1,8 @@
 <?php
+function get_productFull()
+{
+    return pdo_query("SELECT * FROM product ORDER BY id ASC");
+}
 
 function get_product()
 {

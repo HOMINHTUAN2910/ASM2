@@ -72,6 +72,7 @@
                   <th>Name</th>
                   <th>Code</th>
                   <th>price</th>
+                  <th>Description</th>
                   <th>discount</th>
                   <th>quantity</th>
                   <th>Hot</th>
@@ -80,14 +81,25 @@
                   <th>Chức năng</th>
                 </thead>
                 <tbody>
-                  <tr>
-                    <td>1</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                  <?php
+                  foreach ($products as $product) {
+                    echo '
+                    <tr>
+                    <td>' . $product['id'] . '</td>
+                    <td>' . $product['nameProduct'] . '</td>
+                    <td>' . $product['code'] . '</td>
+                    <td>' . $product['price'] . '</td>
+                    <td>' . $product['description'] . '</td>
+                    <td>' . $product['price_discount'] . '</td>
+                    <td>' . $product['quantity'] . '</td>
+                    <td>' . $product['featured'] . '</td>
+                    <td>' . $product['hot_product'] . '</td>
+                    <td>' . $product['status_sale'] . '</td>
                     <td><a href="">Sửa</a> | <a href="">Xóa</a></td>
-                  </tr>
+                  </tr>';
+                  }
 
+                  ?>
                 </tbody>
               </table>
 

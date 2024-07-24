@@ -16,7 +16,8 @@ if (!isset($_GET['page'])) {
 
     switch ($_GET['page']) {
         case 'product':
-
+            $products = get_productFull();
+            include 'view/layout/productview.php';
             break;
         case 'categories':
             $catagoriesFull = get_categories();
