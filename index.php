@@ -25,27 +25,18 @@ if (!isset($_GET['page'])) {
     case 'detail':
       include "view/detail.php";
       break;
-      // case 'cotrang':
-      //   $categoryName = "Tâm lý";
-      //   $movies = get_film_buytheloai($categoryName);
-      //   include "view/cotrang.php";
-      //   break;
+
     case 'tinhcam':
 
       break;
-      // case 'bian':
-      //   $categoryName = "Tâm lý";
-      //   $movies = get_film_buytheloai($categoryName);
-      //   include "view/bian.php";
-      //   break;
+
     case 'kinhdi':
 
       break;
     case 'hanhdong':
 
       break;
-    case 'vothuat':
-      include "view/vothuat.php";
+
     default:
       include "view/404.php";
       break;

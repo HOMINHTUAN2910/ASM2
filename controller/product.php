@@ -1,8 +1,12 @@
 <?php
+function get_productFull()
+{
+    return pdo_query("SELECT * FROM product ORDER BY id ASC");
+}
 
 function get_product()
 {
-  $sql = "
+    $sql = "
         SELECT 
             p.id AS product_id,
             p.nameProduct,
@@ -19,6 +23,5 @@ function get_product()
         ORDER BY 
             p.nameProduct ASC;
     ";
-
-  return pdo_query($sql);
+    return pdo_query($sql);
 }
