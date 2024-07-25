@@ -5,6 +5,10 @@ function get_categoriesID($id)
 
   return pdo_query_one($sql,  $id);
 }
+function get_categories()
+{
+  return pdo_query("SELECT * FROM categories order by id ASC");
+}
 
 function get_subcategories($subid)
 {
