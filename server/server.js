@@ -6,6 +6,9 @@ const app = express();
 
 const PORT = 8080;
 
+//middlewares
+app.use(express.json());
+
 app.use(cors())
 
 app.get("/api/home", (req, res) => {
