@@ -1,14 +1,71 @@
-import Image from "next/image"
+import Image from "next/image";
+import { FaRegEye } from "react-icons/fa6";
+import { FaRegEyeSlash } from "react-icons/fa";
+import { useState } from "react";
+import Register from "./components/Register";
 
 export default function Login() {
-    return (
-        <main className="bg-[#f2f4f7] h-screen">
-            <div className="flex items-center justify-center">
-                <div className="">
-                    <Image src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="logo"  width={320} height={106}/>
-                    <h2 className="font-semibold text-[28px] w-[700px] ml-[30px]">Facebook helps you connect and share with the people in your life.</h2>
-                </div>
+  const [passwordVisible, setPasswordVisible] = useState(false);
+  const [showRegisterModel, setShowRegisterModel] = useState(true);
+
+  const togglePasswordVisibility = () => {
+    setPasswordVisible(!passwordVisible);
+  };
+  return (
+    <main className="bg-[#f2f4f7] h-screen relative">
+      {showRegisterModel ? null : (
+        <Register
+          showRegisterModel={showRegisterModel}
+          setShowRegisterModel={setShowRegisterModel}
+        />
+      )}
+      <div className="flex items-center justify-center translate-y-36">
+        <div className="">
+          <Image
+            src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg"
+            alt="logo"
+            width={320}
+            height={106}
+          />
+          <h2 className="font-semibold text-[28px] w-[700px] ml-[30px]">
+            Facebook giúp bạn kết nối và chia sẻ với mọi người trong cuộc sống
+            của bạn.
+          </h2>
+        </div>
+        <form
+          action=""
+          className="w-[396px] h-[315px] bg-white p-3 boxshow-custom rounded-[10px] translate-y-[40px] mx-5"
+        >
+          <input
+            className="p-3 border border-gray-200 w-full my-2"
+            type="email"
+            placeholder="Email hoặc số điện thoại"
+            name="email"
+          />
+          <div className="relative">
+            <input
+              className="p-3 border border-gray-200 w-full my-2"
+              type={passwordVisible ? "text" : "password"}
+              placeholder="Mật khẩu"
+              name="password"
+            />
+            <div
+              onClick={togglePasswordVisibility}
+              className="absolute right-3 top-6 text-[18px] cursor-pointer"
+            >
+              {passwordVisible ? <FaRegEyeSlash /> : <FaRegEye />}
             </div>
-        </main>
-    )
+          </div>
+          <button className="w-full bg-blue-500 text-white p-3 my-2 font-bold text-[20px] cursor-pointer rounded-md hover:opacity-95 transition-colors">
+            Đăng nhập
+          </button>
+          <div className="w-full text-center my-2">
+            <button className="bg-[#42b72a] text-white p-3 cursor-pointer rounded-md hover:opacity-95 transition-colors">
+              Tạo tài khoản mới
+            </button>
+          </div>
+        </form>
+      </div>
+    </main>
+  );
 }
