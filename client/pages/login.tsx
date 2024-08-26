@@ -11,6 +11,10 @@ export default function Login() {
   const togglePasswordVisibility = () => {
     setPasswordVisible(!passwordVisible);
   };
+
+  const toggleRegisterModel = () => {
+    setShowRegisterModel(!showRegisterModel);
+  };
   return (
     <main className="bg-[#f2f4f7] h-screen relative">
       {showRegisterModel ? null : (
@@ -22,6 +26,7 @@ export default function Login() {
       <div className="flex items-center justify-center translate-y-36">
         <div className="">
           <Image
+            fetchPriority="high"
             src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg"
             alt="logo"
             width={320}
@@ -59,10 +64,13 @@ export default function Login() {
           <button className="w-full bg-blue-500 text-white p-3 my-2 font-bold text-[20px] cursor-pointer rounded-md hover:opacity-95 transition-colors">
             Đăng nhập
           </button>
-          <div className="w-full text-center my-2">
-            <button className="bg-[#42b72a] text-white p-3 cursor-pointer rounded-md hover:opacity-95 transition-colors">
+          <div
+            onClick={toggleRegisterModel}
+            className="translate-x-[110px] text-center my-2"
+          >
+            <div className="bg-[#42b72a] text-white p-3 cursor-pointer rounded-md hover:opacity-95 transition-colors w-[160px]">
               Tạo tài khoản mới
-            </button>
+            </div>
           </div>
         </form>
       </div>
