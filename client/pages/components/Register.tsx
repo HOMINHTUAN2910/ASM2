@@ -25,7 +25,6 @@ const Register: React.FC<RegisterProps> = ({
 
   const handleClick = async (e: React.MouseEvent<HTMLDivElement>) => {
     e.preventDefault();
-
     try {
       await axios.post("http://localhost:8080/api/auth/register", inputs);
     } catch (err: any) {
@@ -43,7 +42,7 @@ const Register: React.FC<RegisterProps> = ({
       <div className="flex justify-center">
         <form
           action=""
-          className="absolute z-30 boxshow-custom py-3 px-5 w-[432px]"
+          className="absolute z-30 boxshow-custom py-3 px-5 w-[432px] opacity-100 bg-white translate-y-52"
         >
           <IoCloseSharp
             onClick={toggleRegisterModel}
@@ -85,7 +84,7 @@ const Register: React.FC<RegisterProps> = ({
           </div>
           <div
             onClick={handleClick}
-            className="bg-[#42b72a] text-white p-3 cursor-pointer rounded-md hover:opacity-95 transition-colors w-[160px]"
+            className="bg-[#42b72a] text-center text-white p-3 cursor-pointer rounded-md hover:opacity-95 transition-colors w-[130px] translate-x-32"
           >
             Đăng ký
           </div>

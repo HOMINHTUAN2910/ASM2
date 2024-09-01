@@ -1,12 +1,26 @@
+"use client";
 import Image from "next/image";
 import { FaRegEye } from "react-icons/fa6";
 import { FaRegEyeSlash } from "react-icons/fa";
-import { useState } from "react";
+import { useContext, useState } from "react";
 import Register from "./components/Register";
+import { AuthContext } from "./context/authContext";
+import { useRouter } from "next/navigation";
 
 export default function Login() {
   const [passwordVisible, setPasswordVisible] = useState(false);
   const [showRegisterModel, setShowRegisterModel] = useState(true);
+  const [inputs, setInputs] = useState({
+    email: "",
+    password: "",
+  });
+  const [err, setErr] = useState(null);
+
+  const navigate = useRouter();
+
+  const handleChange = (e) => {
+    setInputs((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+  };
 
   const togglePasswordVisibility = () => {
     setPasswordVisible(!passwordVisible);
@@ -15,6 +29,19 @@ export default function Login() {
   const toggleRegisterModel = () => {
     setShowRegisterModel(!showRegisterModel);
   };
+
+  const { login } = useContext(AuthContext);
+
+  const handleLogin = async (e) => {
+    e.preventDefault();
+    try {
+      await login(inputs);
+      navigate.push("/");
+    } catch (err) {
+      setErr(err.response ? err.response.data : "An unexpected error occurred");
+    }
+  };
+
   return (
     <main className="bg-[#f2f4f7] h-screen relative">
       {showRegisterModel ? null : (
@@ -42,6 +69,7 @@ export default function Login() {
           className="w-[396px] h-[315px] bg-white p-3 boxshow-custom rounded-[10px] translate-y-[40px] mx-5"
         >
           <input
+            onChange={handleChange}
             className="p-3 border border-gray-200 w-full my-2"
             type="email"
             placeholder="Email hoặc số điện thoại"
@@ -49,6 +77,7 @@ export default function Login() {
           />
           <div className="relative">
             <input
+              onChange={handleChange}
               className="p-3 border border-gray-200 w-full my-2"
               type={passwordVisible ? "text" : "password"}
               placeholder="Mật khẩu"
@@ -61,7 +90,11 @@ export default function Login() {
               {passwordVisible ? <FaRegEyeSlash /> : <FaRegEye />}
             </div>
           </div>
-          <button className="w-full bg-blue-500 text-white p-3 my-2 font-bold text-[20px] cursor-pointer rounded-md hover:opacity-95 transition-colors">
+          {/* {err & err} */}
+          <button
+            onClick={handleLogin}
+            className="w-full bg-blue-500 text-white p-3 my-2 font-bold text-[20px] cursor-pointer rounded-md hover:opacity-95 transition-colors"
+          >
             Đăng nhập
           </button>
           <div
